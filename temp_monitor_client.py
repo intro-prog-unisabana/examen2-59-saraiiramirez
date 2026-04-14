@@ -6,11 +6,11 @@ import temp_monitor
 
 
 def main():
-    # TODO: Pedir el nombre del archivo al usuario usando input()
+    input("Enter your name" )
     
-    # TODO: Abrir el archivo y leer el numero de lecturas n
+    open("temp_monitor_client.py", "r")
     
-    # TODO: Crear el monitor usando temp_monitor.init(n)
+    temp_monitor.init(n)
     
     # TODO: Leer las n temperaturas y agregarlas con temp_monitor.add_reading()
     

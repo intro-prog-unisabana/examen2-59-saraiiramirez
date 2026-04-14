@@ -11,8 +11,11 @@ def init(max_readings):
     """
     Crea y retorna un diccionario para almacenar hasta max_readings lecturas.
     """
-    # TODO: Implementar
-    pass
+    diccionario = {"max": 3, 
+                   "readings": bog_temp = [12, 8.0, 9.5, 11.0, 13.5, 15.0, 17.5, 19.0, 20.0, 19.5, 18.0, 16.5, 15.0], crtg_temp = [12, 26.0, 27.5, 29.0, 30.5, 31.5, 32.0, 31.0, 30.0, 29.9, 28.0], moscow_sem_temp = [14, -5.0, -3.0, -1.0, 2.0, 4.0, 3.0, 1.0, -2.0, -4.0, -3.0, -1.0, 0.0, 2.0, 1.0],  
+                   "total": bog_temp + crtg_temp + moscow_sem_temp}
+    return diccionario
+
 
 
 def add_reading(monitor, temp):
@@ -20,8 +23,8 @@ def add_reading(monitor, temp):
     Agrega una nueva lectura con la temperatura especificada.
     Retorna el diccionario modificado.
     """
-    # TODO: Implementar
-    pass
+    open("bogota_dia.txt", "r")
+    return
 
 
 def count(monitor):
